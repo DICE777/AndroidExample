@@ -4,4 +4,8 @@
     <string name="service">Service</string>
     <string name="service_start">Start Service</string>
     <string name="service_finish">Finish Service</string>
+
+    <string name="adapter">Adapter</string>
+    <string name="id">ID : </string>
+    <string name="phone">PHONE : </string>
 </resources>

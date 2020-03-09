@@ -24,5 +24,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // PRACTICE :: Adapter
+        Button adapterButton = findViewById(R.id.button_adapter);
+        adapterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AdapterActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
