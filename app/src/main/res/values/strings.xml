@@ -6,6 +6,7 @@
     <string name="service_finish">Finish Service</string>
 
     <string name="adapter">Adapter</string>
+    <string name="adapter2">Adapter 2</string>
     <string name="id">ID : </string>
     <string name="phone">PHONE : </string>
 </resources>
