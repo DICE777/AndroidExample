@@ -43,5 +43,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        // PRACTICE :: MVVM
+        Button mvvmButton = findViewById(R.id.button_mvvm);
+        mvvmButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO : Add to startActivity
+            }
+        });
     }
 }

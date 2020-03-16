@@ -9,4 +9,6 @@
     <string name="adapter2">Adapter 2</string>
     <string name="id">ID : </string>
     <string name="phone">PHONE : </string>
+
+    <string name="mvvm">MVVM</string>
 </resources>
