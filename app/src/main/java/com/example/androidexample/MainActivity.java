@@ -50,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
         mvvmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO : Add to startActivity
+                Intent intent = new Intent(getApplicationContext(), MvvmActivity.class);
+                startActivity(intent);
             }
         });
     }
